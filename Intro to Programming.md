@@ -40,11 +40,10 @@ alert( a );
 
 ### Executing a Program
 
-*Open the console.* 
+*Two ways to open the console.* 
 
-Directions: 
 1. Right click, click 'Inspect Element', Click 'Console' tab
-2. Or press Cmd + Alt + I (Mac) or Ctrl + Shift + J (Windows / Linux) 
+2. Press Cmd + Alt + I (Mac) or Ctrl + Shift + J (Windows / Linux) 
 
 ```js
 a = 21;
