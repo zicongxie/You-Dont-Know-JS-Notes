@@ -1,3 +1,7 @@
+### Introduction
+
+A program (or source code/code) is a set of special instructions to tell the computer what tasks to perform. 
+The rules for valid format and combinations of instructions is called a computer language (or syntax).
 
 
 ### Statements
