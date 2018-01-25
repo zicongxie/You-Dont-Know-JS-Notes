@@ -54,10 +54,6 @@ b = a * 2;
 console.log( b );
 ```
 
-Practice.
-
-<img src="fig1.png" width="500">
-
 ### Output
 
 Another way of creating output that you can see is to run an `alert(..)` statement. For example:
@@ -73,14 +69,6 @@ age = prompt( "Please tell me your age:" );
 
 console.log( age );
 ```
-
-This should look similar to the following:
-
-<img src="fig2.png" width="500">
-
-Once you submit the input text by clicking "OK," you'll observe that the value you typed is stored in the `age` variable, which we then *output* with `console.log(..)`:
-
-<img src="fig3.png" width="500">
 
 ## Operators
 
@@ -102,8 +90,6 @@ Common operators in JavaScript:
 ## Values & Types
 
 Values that are included directly in the source code are called *literals*. `string` literals are surrounded by double quotes `"..."` or single quotes (`'...'`) -- the only difference is stylistic preference. `number` and `boolean` literals are just presented as is (i.e., `42`, `true`, etc.).
-
-Consider:
 
 ```js
 "I am a string";
@@ -131,8 +117,6 @@ console.log( b );	// 42
 
 In JavaScript, there are two types of comments possible: a single-line comment and a multiline comment.
 
-Consider:
-
 ```js
 // This is a single-line comment
 
@@ -145,7 +129,6 @@ Consider:
 ## Variables
 
 JavaScript uses the latter approach, *dynamic typing*, meaning variables can hold values of any *type* without any *type* enforcement.
-
 
 ```js
 var amount = 99.99;
@@ -185,7 +168,7 @@ var amount = 99.99;
 // ..
 ```
 
-Constants is similar to the static-typing type enforcement.
+Constants is similar to the *static-typing* type enforcement.
 
 ## Blocks
 
@@ -255,7 +238,7 @@ else {
 
 A loop includes the test condition as well as a block (typically as `{ .. }`). Each time the loop block executes, that's called an *iteration*.
 
-`while` loop and the `do..while` loop forms illustrate the concept of repeating a block of statements until a condition no longer evaluates to `true`.
+`while` loop and the `do..while` loop forms are different types of loops. `while` never runs if there is no input, `do while` runs once.
 
 ```js
 while (numOfCustomers > 0) {
@@ -277,7 +260,6 @@ do {
 } while (numOfCustomers > 0);
 ```
 
-
 When you break an infinite loop.
 
 ```js
@@ -295,7 +277,7 @@ while (true) {
 }
 // 0 1 2 3 4 5 6 7 8 9
 ```
-For loops
+`for loops` is usually the simplest way to perform an interation. 
 
 ```js
 for (var i = 0; i <= 9; i = i + 1) {
@@ -306,7 +288,7 @@ for (var i = 0; i <= 9; i = i + 1) {
 
 ## Functions
 
-A function is generally a named section of code that can be "called" by name, and the code inside it will be run each time. Consider:
+A function is generally a named section of code that can be "called" by name, and the code inside it will be run each time. 
 
 ```js
 function printAmount() {
@@ -321,7 +303,6 @@ amount = amount * 2;
 
 printAmount(); // "199.98"
 ```
-
 Functions can optionally take arguments (aka parameters) -- values you pass in. And they can also optionally return a value back.
 
 ```js
@@ -344,9 +325,6 @@ console.log( amount );			// "$99.99"
 Parameter is `amt`. 
 Argument is `amount`.
 
-
-Consider:
-
 ```js
 const TAX_RATE = 0.08;
 
@@ -367,7 +345,7 @@ console.log( amount.toFixed( 2 ) );		// "107.99"
 
 ### Scope
 
-*scope* (or *lexical scope*) is basically a collection of variables as well as the rules for how those variables are accessed by name. Only code inside that function can access that function's *scoped* variables.
+*scope* (or *lexical scope*) is basically a collection of variables as well as the rules for how those variables are accessed by name. Only code inside that function can access that function's *scoped* variables. Code outside cannot access variables inside.
 
 ```js
 function one() {
