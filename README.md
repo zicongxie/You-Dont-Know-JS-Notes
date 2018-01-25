@@ -17,7 +17,7 @@ Final. Appendix A: Thank You's!
 Code |
 Operators |
 Values and Types |
-Code Comments |
+Comments |
 Variables |
 Blocks |
 Conditionals |
