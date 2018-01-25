@@ -12,7 +12,7 @@ Final. Appendix A: Thank You's!
 
 ## Update - Chapter 1
 
-**Chapter 1: Into Programming** | Chapter 2
+Chapter 1: Into Programming | Chapter 2
 ------------ | -------------
 Code |
 Operators |
