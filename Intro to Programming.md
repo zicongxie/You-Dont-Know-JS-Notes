@@ -40,7 +40,7 @@ alert( a );
 
 ### Executing a Program
 
-Open console. 
+*Open the console.* 
 
 Directions: 
 1. Right click, click 'Inspect Element', Click 'Console' tab
