@@ -44,7 +44,7 @@ alert( a );
 
 Directions: 
 1. Right click, click 'Inspect Element', Click 'Console' tab
-2. Or press Cmd + Alt + I (Mac)
+2. Or press Cmd + Alt + I (Mac) or Ctrl + Shift + J (Windows / Linux) 
 
 ```js
 a = 21;
