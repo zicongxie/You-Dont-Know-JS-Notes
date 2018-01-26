@@ -1,6 +1,6 @@
 # You-Dont-Know-JS-Notes
 
-## Up and Going Topics
+## You Don't Know JS - Up and Going
 
 1. Foreword (by Jenn Lukas)
 2. Preface
