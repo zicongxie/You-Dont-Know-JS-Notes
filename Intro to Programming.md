@@ -141,7 +141,7 @@ In JavaScript, there are two types of comments possible: a single-line comment a
 
 ## Variables
 
-JavaScript uses the latter approach, *dynamic typing*, meaning variables can hold values of any *type* without any *type* enforcement.
+JavaScript uses the latter approach, *dynamic typing*, meaning variables can hold values of any *type* without any *type* enforcement. The oppesite of that would be *static typing*, a trait in other languages.
 
 ```js
 var amount = 99.99;
