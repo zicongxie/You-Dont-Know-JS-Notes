@@ -40,10 +40,24 @@ alert( a );
 
 ### Executing a Program
 
-*Two ways to open the console.* 
+For Chrome (Firefox can work but many Chrome tools help for this console).
+
+* Make a new tab
+* Type `about:blank` in the new tab browser
+
+**Opening the  console (2 ways)**
 
 1. Right click, click 'Inspect Element', Click 'Console' tab
+
+OR
+
 2. Press Cmd + Alt + I (Mac) or Ctrl + Shift + J (Windows / Linux) 
+
+**Tip**
+
+* Shift-Enter to go onto new line. If you just press Enter, the code will run without being complete.
+* Use examples below to test the console and practice.
+
 
 ```js
 a = 21;
