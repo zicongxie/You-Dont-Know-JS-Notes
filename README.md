@@ -7,7 +7,7 @@
 3. Chapter 1: Into Programming
 4. Chapter 2: Into JavaScript
 5. Chapter 3: Into YDKJS
-Final. Appendix A: Thank You's!
+6. Final. Appendix A: Thank You's!
 
 
 ## Update - Chapter 1
