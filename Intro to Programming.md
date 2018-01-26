@@ -47,11 +47,11 @@ For Chrome (Firefox can work but many Chrome tools help for this console).
 
 **Opening the  console (2 ways)**
 
-1. Right click, click 'Inspect Element', Click 'Console' tab
+1. Right click, click 'Inspect Element', click 'Console' tab
 
 OR
 
-2. Press Cmd + Alt + I (Mac) or Ctrl + Shift + J (Windows / Linux) 
+2. Press Cmd + Alt + I (Mac) or Ctrl + Shift + J (Windows / Linux) / Click Console Tab
 
 **Tip**
 
